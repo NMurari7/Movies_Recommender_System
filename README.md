@@ -16,21 +16,20 @@ https://github.com/NMurari7/movies_recommender_system/assets/70143030/5e546779-d
 
 ### Installation
 To install the required packages, run the following command:
-
+```
 pip install pandas numpy scikit-learn streamlit
+```
 
 Dataset
 The dataset used for this project is the TMDb dataset. It contains information about movies, including their titles, genres, overviews, and other details. The dataset can be found at https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata.
 
 ### Usage
 To run the application, simply run the following command in your terminal:
-
+```
 streamlit run app.py
+```
 
 This will start the application and open it in your default web browser. From there, you can select a movie from the dropdown menu, and the app will recommend 5 similar movies based on the cosine similarity of their descriptions and other details.
 
-### Development
-This application was developed using Python, Pandas, Numpy, Scikit-learn and Streamlit. 
 
-### Credits
-This project was developed by N Murari. It is based on the TMDb dataset, which was collected by TMDb and made available on Kaggle.
+
